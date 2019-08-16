@@ -160,11 +160,11 @@ p {
   line-height: 1.4;
 }
 .contain {
-  max-width: 90rem;
+  max-width: 900px;
   margin: 0 auto;
 }
 .container {
-  max-width: 80rem;
+  max-width: 800px;
   margin: 0 auto;
 }
 .navigation {
@@ -176,7 +176,7 @@ p {
   border-bottom: 0.2rem solid #dfe0e2;
   width: 100%;
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .navigation {
     border: none;
   }
@@ -229,12 +229,12 @@ footer {
   border-radius: 2rem;
   height: 100%;
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .space-images img {
     width: 100%;
   }
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .space-images .sky,
   .home .space-images .launch {
     display: none;
@@ -262,7 +262,7 @@ footer {
 .home .walk .walk-text h3 {
   margin-bottom: 1rem;
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .walk .walk-text h3 {
     margin: 1rem 0;
   }
@@ -285,12 +285,12 @@ footer {
   background-color: #98a3c3;
   color: #23293B;
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
   }
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
   }
@@ -304,13 +304,13 @@ footer {
   height: auto;
   border-radius: 1rem;
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
     margin: 0;
   }
 }
-@media (max-width: 50rem) {
+@media (max-width: 500px) {
   .home .walk {
     flex-direction: column-reverse;
     padding: 1.5rem;
