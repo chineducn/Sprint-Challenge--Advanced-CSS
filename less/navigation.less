@@ -1,7 +1,25 @@
 // Navigation code here
 .navigation {
-    display: block;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     text-align: center;
+    border-bottom: 1px solid grey;
     
+    h1 {
+        .navigation-style();
+        font-size: 4rem;
+    }
+
+    nav {
+        .navigation-style();
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
 }

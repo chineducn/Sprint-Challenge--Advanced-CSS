@@ -165,9 +165,27 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  display: block;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   text-align: center;
+  border-bottom: 1px solid grey;
+}
+.navigation h1 {
+  padding: 10px;
+  width: 100%;
+  font-size: 4rem;
+}
+.navigation nav {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation nav a {
+  text-decoration: none;
+  color: black;
 }
 footer {
   color: #22283B;
