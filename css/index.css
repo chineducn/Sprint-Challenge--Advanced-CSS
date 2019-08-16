@@ -173,7 +173,6 @@ p {
   align-content: center;
   justify-content: center;
   text-align: center;
-  border-bottom: 1px solid grey;
 }
 .navigation h1 {
   padding: 10px;
@@ -190,7 +189,7 @@ p {
   text-decoration: none;
   color: black;
   font-size: 2rem;
-  padding: 0 10px;
+  padding: 0 1.5rem;
 }
 footer {
   color: #22283B;
@@ -223,12 +222,12 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
   .home .space-images img {
     width: 100%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
   .home .space-images .sky,
   .home .space-images .launch {
     display: none;
@@ -274,12 +273,12 @@ footer {
   background-color: #98a3c3;
   color: #23293B;
 }
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
   .home .walk .walk-text .btn {
     width: 100%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
   .home .walk .walk-text {
     width: 100%;
   }
@@ -293,13 +292,13 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
   .home .walk .walk-img {
     width: 100%;
     margin: 0;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 50rem) {
   .home .walk {
     flex-direction: column-reverse;
   }
