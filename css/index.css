@@ -165,6 +165,7 @@ p {
 }
 .container {
   max-width: 80rem;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
@@ -172,6 +173,13 @@ p {
   align-content: center;
   justify-content: center;
   text-align: center;
+  border-bottom: 0.2rem solid #dfe0e2;
+  width: 100%;
+}
+@media (max-width: 50rem) {
+  .navigation {
+    border: none;
+  }
 }
 .navigation h1 {
   padding: 1rem;
