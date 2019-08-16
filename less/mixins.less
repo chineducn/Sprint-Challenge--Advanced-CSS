@@ -1,5 +1,5 @@
 // Mixins Here
-.button-style(@btnBgColor, @btnWidth, @btnFontSz, @btnFtColor) {
+.button-style(@btnBgColor, @btnWidth, @btnFontSz, @btnFtColor, @btnHvBg, @btnHvFtCol) {
     background-color: @btnBgColor;
     border-radius   : 5px;
     width           : @btnWidth;
@@ -9,6 +9,11 @@
     text-align      : center;
     padding         : 10px 0px;
     cursor          : pointer;
+
+    &:hover {
+        background-color: @btnHvBg;
+        color: @btnHvFtCol;
+    }
 }
 
 .navigation-style {

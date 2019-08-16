@@ -171,6 +171,7 @@ p {
   justify-content: center;
   text-align: center;
   border-bottom: 1px solid grey;
+  margin: 0px 100px;
 }
 .navigation h1 {
   padding: 10px;
@@ -186,6 +187,7 @@ p {
 .navigation nav a {
   text-decoration: none;
   color: black;
+  font-size: 1.5rem;
 }
 footer {
   color: #22283B;
@@ -252,6 +254,10 @@ footer {
   text-align: center;
   padding: 10px 0px;
   cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #98a3c3;
+  color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;
