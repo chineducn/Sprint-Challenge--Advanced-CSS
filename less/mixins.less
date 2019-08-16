@@ -1,1 +1,23 @@
 // Mixins Here
+.button-style(@btnBgColor, @btnWidth, @btnFontSz, @btnFtColor, @btnHvBg, @btnHvFtCol) {
+    background-color: @btnBgColor;
+    border-radius   : 5px;
+    width           : @btnWidth;
+    height          : 40px;
+    font-size       : @btnFontSz;
+    color           : @btnFtColor;
+    text-align      : center;
+    padding         : 10px 0px;
+    cursor          : pointer;
+
+    &:hover {
+        background-color: @btnHvBg;
+        color: @btnHvFtCol;
+    }
+}
+
+.navigation-style {
+    padding: 10px;
+    width: 100%;
+}
+

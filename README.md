@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+In adaptive design, different pages are designed for different screen sizes. For fully responsive, the same page adjusts depending on the screen size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+The first design is for the size of a mobile devices. Media queries are then used to effect changes as the screen size gets larger using the min-width argument.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+For pages that have a default font size of 16px, this forces it to 10px making easier to calculate exact font sizes.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Life made less difficult. Nesting is a god-send.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting is my favorite probably because it's the easiest to understand and apply. No trouble with the others. I find them interesting. Probably when using them becomes second nature I will find a new favorite.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -133,3 +143,6 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+
+Chinedu Nwume 08:05 GMT+1
