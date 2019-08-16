@@ -141,12 +141,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
-@media (max-width: 500px) {
-  html,
-  body {
-    color: red;
-  }
-}
 h1,
 h2,
 h3,
